@@ -36,6 +36,12 @@
       "relation": "oneToMany",
       "target": "api::viral.viral",
       "mappedBy": "author"
+    },
+    "techs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tech.tech",
+      "mappedBy": "author"
     }
   }
 }

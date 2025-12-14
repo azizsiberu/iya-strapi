@@ -26,6 +26,12 @@
       "relation": "oneToMany",
       "target": "api::viral.viral",
       "mappedBy": "category"
+    },
+    "techs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tech.tech",
+      "mappedBy": "category"
     }
   }
 }

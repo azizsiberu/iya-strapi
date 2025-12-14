@@ -23,6 +23,12 @@
       "relation": "manyToMany",
       "target": "api::viral.viral",
       "inversedBy": "tags"
+    },
+    "techs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tech.tech",
+      "mappedBy": "tags"
     }
   }
 }
